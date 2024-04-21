@@ -2,3 +2,14 @@ body {
   background-color: blue;
   color: white;
 }
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+  color: yellow;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
